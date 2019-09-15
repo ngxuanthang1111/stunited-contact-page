@@ -1,0 +1,61 @@
+@import "./../style.css";
+@media (min-width: 768px) {
+    .fa-bars:before{
+        font-size: 22px;
+    }
+    .header-content > h1{
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .header-content > h2{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .breadcrumb-wrap{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .breadcrumb{
+        font-size: 17px;
+        line-height: 17px;
+    }
+    .section-title-contact{
+        font-size: 22px;
+    }
+    .bg-white{
+        padding: 40px;
+    }
+    /*.bg-white > div {*/
+        /*padding-left: 15px !important;*/
+        /*padding-right: 15px !important;*/
+    /*}*/
+    .description-content > p{
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .info-office > div > h4 > small{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .info-office > div > ul > li >small{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .footer{
+        padding-top: 100px;
+        padding-bottom: 70px;
+    }
+    .footer-copy-right{
+        max-height: none;
+    }
+    .copy-right{
+        padding-top: 30px;
+        padding-bottom: 25px;
+    }
+    .copy-right > small{
+        font-size: 14px;
+    }
+
+}

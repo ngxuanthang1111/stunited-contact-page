@@ -1,0 +1,91 @@
+@import "responsive-md.css";
+@media (min-width: 992px) {
+    .nav-mobile {
+        background-color: transparent;
+        position: absolute;
+        width: 100%;
+        top: -10px;
+        display: flex;
+        height: fit-content;
+    }
+
+    .logo-mobile {
+        position: relative;
+        width: auto;
+        left: 8%;
+    }
+
+    .navbar-expand-lg {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        position: relative;
+        top: 0;
+        /*left: 5%;*/
+        justify-content: center;
+    }
+
+    .navbar-nav {
+        width: auto;
+    }
+
+    .navbar-nav > .nav-item {
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    .navbar-nav > .nav-item > .nav-link {
+        color: #ffffff;
+
+    }
+
+    .navbar, .navbar-expand-lg, .nav-mobile {
+        /*position: relative;*/
+
+    }
+
+    .dropdown-toggle::after {
+        transform: rotate(0);
+    }
+
+    .dropdown {
+        background-color: transparent !important;
+
+    }
+
+    .dropdown-toggle > .show {
+        background-color: transparent;
+    }
+
+    .sub-menu {
+        background-color: #fff;
+        border-top: 1px solid #4e555b;
+        padding: 15px 23px;
+    }
+
+    .sub-menu > .dropdown-item {
+        color: #4e555b;
+    }
+
+    .section-title-contact {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .breadcrumb-wrap {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .bg-white > div {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .header-content > h1{
+        font-size: 43px;
+        line-height: 43px;
+    }
+
+}

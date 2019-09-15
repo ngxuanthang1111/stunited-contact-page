@@ -1,0 +1,7 @@
+@import "responsive-lg.css";
+@media (min-width: 1200px) {
+    /*.navbar, .navbar-expand-lg, .nav-mobile {*/
+        /*left: 60%;*/
+        /*transform: translateX(-40%);*/
+    /*}*/
+}
